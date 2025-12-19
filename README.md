@@ -1,12 +1,7 @@
-Got it! Here's a **simpler, human-friendly README** for your script—easy to read, concise, and still covers everything important:
-
----
 
 # AWS Resource Info Script
 
 Shell script to list some AWS resources in a given region. Supports **EC2, S3, VPC, and EBS**.
-
----
 
 ## Prerequisites
 
@@ -20,8 +15,6 @@ Install JQ if missing:
 ```bash
 sudo apt-get install jq -y
 ```
-
----
 
 ## Usage
 
@@ -42,7 +35,6 @@ sudo apt-get install jq -y
 * `<aws_service>` → Service name (`ec2`, `s3`, `vpc`, `ebs`)
 * Service names are **case-insensitive**
 
----
 
 ## What it shows
 
@@ -51,4 +43,3 @@ sudo apt-get install jq -y
 * **VPC** → VPC IDs + CIDR blocks
 * **EBS** → Volume IDs + size (GiB)
 
----
